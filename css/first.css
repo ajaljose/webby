@@ -1,0 +1,26 @@
+h1{
+    color: #000000;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+body{
+    background-color: #fefae0;
+    
+}
+p{
+    color: #000000;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    color: #000000;
+    font-size: 30px;
+    
+    border-radius: 20%;
+    font-family: 'Raleway', sans-serif;
+}
+div{
+    text-align: center;
+}
