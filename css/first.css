@@ -21,6 +21,9 @@ button{
     border-radius: 20%;
     font-family: 'Raleway', sans-serif;
 }
-div{
+#mood1{
     text-align: center;
+}
+.container{
+    margin-left: 200px; margin-right: auto;
 }
