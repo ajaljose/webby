@@ -24,6 +24,11 @@ button{
 #mood1{
     text-align: center;
 }
-.container{
+/* .container{
     margin-left: 200px; margin-right: auto;
+} */
+div.form
+{
+    display: block;
+    text-align: center;
 }

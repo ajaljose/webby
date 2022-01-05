@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 function dark(){
     $("body").css("background-color","#14213d");
-    $("h1").css("color","#fefae0");
+    $("h1,label,p").css("color","#fefae0");
     //debugger;
     $('#mood').html('Light');
     dar=1;
@@ -24,7 +24,7 @@ function dark(){
 
 function light(){
     $("body").css("background-color","#fefae0");
-    $("h1").css("color","#14213d");
+    $("h1,label,p").css("color","#14213d");
     dar=0;
     $('#mood').html('Dark');
 }
