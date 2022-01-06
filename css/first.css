@@ -1,3 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+  width: 5px;
+}
+  
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    padding: 20px 30px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+  }
+  section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .SectionOne {
+    background-image: url(https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-attachment: fixed;
+    width: auto;
+    background-repeat: no-repeat;
+    height: 500px;
+    align-content: center;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+  }
+  
+  #checkbox,
+  .menubtn {
+    display: none;
+    cursor: pointer;
+  }
 h1{
     color: #000000;
     font-family: 'Comforter Brush', cursive;
