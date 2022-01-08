@@ -11,7 +11,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: transparent;
+    background-color: #4c334d;
     position: fixed;
     top: 0;
     z-index: 9999;
@@ -37,6 +37,11 @@
     background-repeat: no-repeat;
     height: 500px;
     align-content: center;
+  }
+  #divCenter{
+    color: chartreuse;
+    text-align: center;
+    padding: 200px;
   }
   .navbar ul li a {
     text-decoration: none;
