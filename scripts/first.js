@@ -10,23 +10,24 @@ $(document).ready(function(){
            dark();
        else
            light();
-    
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
         
     });
 
 function dark(){
     $("body").css("background-color","#14213d");
-    $("h1,label,p").css("color","#fefae0");
+    // $("h1,label,p").css("color","#fefae0");
     //debugger;
-    $('#mood').html('Light');
+    // $('#mood').html('Light');
     dar=1;
 
 }
 
 function light(){
     $("body").css("background-color","#fefae0");
-    $("h1,label,p").css("color","#14213d");
+    // $("h1,label,p").css("color","#14213d");
     dar=0;
-    $('#mood').html('Dark');
+    // $('#mood').html('Dark');
 }
 
